@@ -1,2 +1,2 @@
-# skeletor-plugin-csslint
-CSS Linting plugin for Skeletor
+# skeletor-plugin-stylelint
+A Skeletor plugin to lint CSS files with Stylelint

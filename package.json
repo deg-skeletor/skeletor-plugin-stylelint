@@ -1,0 +1,38 @@
+{
+    "name": "@deg-skeletor/plugin-stylelint",
+    "version": "1.0.0",
+    "description": "A Skeletor plugin to lint CSS files with Stylelint",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint index.js"
+    },
+    "author": {
+        "name": "Aaron Ladage",
+        "email": "aladage@gmail.com"
+    },
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deg-skeletor/skeletor-plugin-stylelint.git"
+    },
+    "peerDependencies": {
+        "@deg-skeletor/core": "^1.1.1"
+    },
+    "dependencies": {
+        "stylelint": "^11.0.0",
+        "stylelint-formatter-pretty": "^1.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "jest": "^24.8.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "skeletor",
+        "skeletor-plugin",
+        "stylelint"
+    ]
+}
